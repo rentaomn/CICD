@@ -24,7 +24,7 @@ permissions:
 hooks:
                                            
   ApplicationStart:                                        ##启动应用程序的动作
-    - location: deploy.sh                    ##执行动作的脚本   
+    - location: deploy.sh start                   ##执行动作的脚本   
       timeout: 1000                         
       
 
