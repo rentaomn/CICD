@@ -85,18 +85,4 @@ start() {
 stop() {
     stop_application
 }
-case "$ACTION" in
-    start)
-        start
-    ;;
-    stop)
-        stop
-    ;;
-    restart)
-        stop
-        start
-    ;;
-    *)
-        usage
-    ;;
-esac
+start
