@@ -18,3 +18,4 @@ artifacts:
   files:
     - target/application.jar
     - appspec.yml
+    - deploy.sh
